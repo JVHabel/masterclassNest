@@ -55,6 +55,13 @@
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.20.0"
   },
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "parser": "flow"
+    }
+  ],
   "jest": {
     "moduleFileExtensions": [
       "js",
